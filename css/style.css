@@ -1,0 +1,206 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    margin: 60px;
+}
+
+header a {
+    color: #000;
+}
+
+.cart-icon {
+    width: 45px;
+    height: 45px;
+    position: relative;
+}
+
+#item-count {
+    position: absolute;
+    font-size: 14px;
+    font-weight: 700;
+    bottom: 8px;
+    right: 19px;
+}
+
+.collection-preview {
+    margin: 40px;
+}
+
+.preview-title{
+    margin-bottom: 25px;
+}
+
+.preview-item {
+    width: 22vw;
+    height: 350px;
+    align-items: center;
+    position: relative;
+    display: inline-block;
+}
+
+.preview-image {
+    width: 100%;
+    height: 95%;
+    background-size: cover;
+    background-position: 50%;
+    margin-bottom: 5px;
+}
+
+.collection-footer {
+    width: 90%;
+    height: 5%;
+    display: flex;
+    justify-content: space-between;
+    font-size: 18px;
+}
+
+.name {
+    width: 90%;
+}
+
+.price {
+    width: 10%;
+}
+
+.cstm-btn{
+    position: relative;
+    bottom: 110px;
+    width: 80% !important; 
+    /* left: 90px; */
+    justify-content: center;
+    opacity: .7;
+    left: 10%;
+    right: 10%;
+    visibility: hidden;
+    height: 50px;
+    letter-spacing: .5px;
+    line-height: 50px;
+    padding: 0 35px;
+    font-size: 15px;
+    font-weight: bolder;
+    justify-content: center;
+}
+
+.hat1 {
+    background-image: url(https://i.ibb.co/ZYW3VTp/brown-brim.png);
+}
+
+.hat2 {
+    background-image: url(https://i.ibb.co/ypkgK0X/blue-beanie.png);
+}
+
+.hat3 {
+    background-image: url(https://i.ibb.co/QdJwgmp/brown-cowboy.png);
+}
+
+.hat4 {
+    background-image: url(https://i.ibb.co/RjBLWxB/grey-brim.png);
+}
+
+.snk1 {
+    background-image: url(https://i.ibb.co/0s3pdnc/adidas-nmd.png);
+}
+
+.snk2 {
+    background-image: url(https://i.ibb.co/dJbG1cT/yeezy.png);
+}
+
+.snk3 {
+    background-image: url(https://i.ibb.co/bPmVXyP/black-converse.png);
+}
+
+.snk4 {
+    background-image: url(https://i.ibb.co/1RcFPk0/white-nike-high-tops.png);
+}
+
+.jkt1 {
+    background-image: url(https://i.ibb.co/XzcwL5s/black-shearling.png);
+}
+
+.jkt2 {
+    background-image: url(https://i.ibb.co/mJS6vz0/blue-jean-jacket.png);
+}
+
+.jkt3 {
+    background-image: url(https://i.ibb.co/N71k1ML/grey-jean-jacket.png);
+}
+
+.jkt4 {
+    background-image: url(https://i.ibb.co/s96FpdP/brown-shearling.png);
+}
+
+.wmn1 {
+    background-image: url(https://i.ibb.co/7CQVJNm/blue-tank.png);
+}
+
+.wmn2 {
+    background-image: url(https://i.ibb.co/4W2DGKm/floral-blouse.png);
+}
+
+.wmn3 {
+    background-image: url(https://i.ibb.co/KV18Ysr/floral-skirt.png);
+}
+
+.wmn4 {
+    background-image: url(https://i.ibb.co/N3BN1bh/red-polka-dot-dress.png);
+}
+
+.men1 {
+    background-image: url(https://i.ibb.co/xJS0T3Y/camo-vest.png);
+}
+
+.men2 {
+    background-image: url(https://i.ibb.co/qMQ75QZ/floral-shirt.png);
+}
+
+.men3 {
+    background-image: url(https://i.ibb.co/55z32tw/long-sleeve.png);
+}
+
+.men4 {
+    background-image: url(https://i.ibb.co/RvwnBL8/pink-shirt.png);
+}
+.cstm-btn{
+    position: relative;
+    bottom: 110px;
+    width: 80% !important; 
+    /* left: 90px; */
+    justify-content: center;
+    opacity: .7;
+    left: 10%;
+    right: 10%;
+    visibility: hidden;
+    height: 50px;
+    letter-spacing: .5px;
+    line-height: 50px;
+    padding: 0 35px;
+    font-size: 15px;
+    font-weight: bolder;
+    justify-content: center;
+}
+
+/*CHECKOUT PAGE*/
+.checkout-page {
+    width: 55%;
+    min-height: 90vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 50px auto 0;
+}
+
+.checkout-header {
+    width: 100%;
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #a9a9a9;
+}
+
+.header-block{
+    width: 23%;
+}
